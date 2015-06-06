@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="17348" started-at="2015-06-06T08:03:10Z" finished-at="2015-06-06T08:03:27Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="17348" started-at="2015-06-06T08:03:10Z" finished-at="2015-06-06T08:03:27Z">
+      <class name="ru.st.selenium.pages.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="init" is-config="true" duration-ms="15685" started-at="2015-06-06T11:03:10Z" finished-at="2015-06-06T11:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testInit(java.lang.String)[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="testInit" is-config="true" duration-ms="1431" started-at="2015-06-06T11:03:26Z" finished-at="2015-06-06T11:03:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="test2" duration-ms="2" started-at="2015-06-06T11:03:27Z" finished-at="2015-06-06T11:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testH1Existing()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="testH1Existing" duration-ms="214" started-at="2015-06-06T11:03:27Z" finished-at="2015-06-06T11:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testH1Existing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="tearDown" is-config="true" duration-ms="474" started-at="2015-06-06T11:03:27Z" finished-at="2015-06-06T11:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ru.st.selenium.pages.HomePageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
