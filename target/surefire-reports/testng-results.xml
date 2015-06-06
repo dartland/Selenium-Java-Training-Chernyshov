@@ -1,40 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="16086" started-at="2015-06-06T22:47:15Z" finished-at="2015-06-06T22:47:31Z">
+  <suite name="Tests" duration-ms="16881" started-at="2015-06-06T23:05:16Z" finished-at="2015-06-06T23:05:33Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="16086" started-at="2015-06-06T22:47:15Z" finished-at="2015-06-06T22:47:31Z">
-      <class name="ru.st.selenium.pages.HomePageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="init" is-config="true" duration-ms="14681" started-at="2015-06-07T01:47:15Z" finished-at="2015-06-07T01:47:30Z">
+    <test name="Test1" duration-ms="16881" started-at="2015-06-06T23:05:16Z" finished-at="2015-06-06T23:05:33Z">
+      <class name="ru.st.selenium.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.LoginTest@59a6e353]" name="init" is-config="true" duration-ms="13440" started-at="2015-06-07T02:05:16Z" finished-at="2015-06-07T02:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testInit(java.lang.String)[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="testInit" is-config="true" duration-ms="1139" started-at="2015-06-07T01:47:30Z" finished-at="2015-06-07T01:47:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[/]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:ru.st.selenium.LoginTest@59a6e353]" name="testUntitled" duration-ms="3429" started-at="2015-06-07T02:05:29Z" finished-at="2015-06-07T02:05:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInit -->
-        <test-method status="PASS" signature="testH1Existing()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="testH1Existing" duration-ms="218" started-at="2015-06-07T01:47:31Z" finished-at="2015-06-07T01:47:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testH1Existing -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="test2" duration-ms="0" started-at="2015-06-07T01:47:31Z" finished-at="2015-06-07T01:47:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.pages.HomePageTest@36d64342]" name="tearDown" is-config="true" duration-ms="265" started-at="2015-06-07T01:47:31Z" finished-at="2015-06-07T01:47:31Z">
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.LoginTest@59a6e353]" name="tearDown" is-config="true" duration-ms="326" started-at="2015-06-07T02:05:33Z" finished-at="2015-06-07T02:05:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ru.st.selenium.pages.HomePageTest -->
+      </class> <!-- ru.st.selenium.LoginTest -->
     </test> <!-- Test1 -->
   </suite> <!-- Tests -->
 </testng-results>
