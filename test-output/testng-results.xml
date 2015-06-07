@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28175" started-at="2015-06-07T12:07:06Z" finished-at="2015-06-07T12:07:35Z">
+  <suite name="Default suite" duration-ms="26933" started-at="2015-06-07T13:16:02Z" finished-at="2015-06-07T13:16:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28175" started-at="2015-06-07T12:07:06Z" finished-at="2015-06-07T12:07:35Z">
+    <test name="Default test" duration-ms="26933" started-at="2015-06-07T13:16:02Z" finished-at="2015-06-07T13:16:29Z">
       <class name="ru.st.selenium.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="init" is-config="true" duration-ms="13518" started-at="2015-06-07T15:07:06Z" finished-at="2015-06-07T15:07:20Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="init" is-config="true" duration-ms="13968" started-at="2015-06-07T16:16:02Z" finished-at="2015-06-07T16:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="testUntitled" duration-ms="14634" started-at="2015-06-07T15:07:20Z" finished-at="2015-06-07T15:07:35Z">
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="testUntitled" duration-ms="12949" started-at="2015-06-07T16:16:16Z" finished-at="2015-06-07T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="tearDown" is-config="true" duration-ms="244" started-at="2015-06-07T15:07:35Z" finished-at="2015-06-07T15:07:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.LoginTest@6debcae2]" name="tearDown" is-config="true" duration-ms="278" started-at="2015-06-07T16:16:29Z" finished-at="2015-06-07T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

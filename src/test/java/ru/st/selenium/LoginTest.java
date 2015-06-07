@@ -40,9 +40,10 @@ public class LoginTest extends ru.st.selenium.pages.TestBase {
     new Select(driver.findElement(By.name("permission"))).selectByVisibleText("Admin");
     driver.findElement(By.cssSelector("option[value=\"2\"]")).click();
     driver.findElement(By.name("submit")).click();
+    //remove new user
     driver.findElement(By.cssSelector("img[alt=\"Remove\"]")).click();
     assertTrue(closeAlertAndGetItsText().matches("^Are you sure you want to remove this[\\s\\S]$"));
-    Thread.sleep(5000);
+    Thread.sleep(3000);
   }
 
   private boolean isElementPresent(By by) {
