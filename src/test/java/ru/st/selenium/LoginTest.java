@@ -18,7 +18,8 @@ public class LoginTest extends ru.st.selenium.pages.TestBase {
   private StringBuffer verificationErrors = new StringBuffer();
 
   @Test
-  public void testUntitled() throws Exception {    driver.get(baseUrl + "/php4dvd/");
+  public void testUntitled() throws Exception {    
+	driver.get(baseUrl + "/php4dvd/");
     driver.manage().window().maximize();
     WebElement usernameField = driver.findElement(By.id("username"));
 	usernameField.clear();
